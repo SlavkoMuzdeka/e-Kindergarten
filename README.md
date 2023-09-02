@@ -10,7 +10,7 @@ Follow these steps to set up and run the e-Kindergarten application on your loca
 
 1. Prerequisites:
 
-- **Visual Studio:** Install Visual Studio on your machine. You can download it from the official Visual Studio [website](https://visualstudio.microsoft.com/).
+**Visual Studio:** Install Visual Studio on your machine. You can download it from the official Visual Studio [website](https://visualstudio.microsoft.com/).
 
 2. Clone the Repository
 
@@ -20,8 +20,8 @@ Follow these steps to set up and run the e-Kindergarten application on your loca
 
 3. Open the Project in Visual Studio:
 
-- Launch Visual Studio.
-- Click on "File" > "Open" > "Project/Solution" and select the cloned repository.
+Launch Visual Studio.
+Click on "File" > "Open" > "Project/Solution" and select the cloned repository.
 
 4. Set Up the MySQL Database:
 
@@ -36,17 +36,17 @@ Replace <username> with your MySQL username and <database_name> with the name of
 
 5. Configure Database Connection:
 
-- In the project source code, locate the database configuration file.
-- Provide the necessary database credentials to connect to your MySQL database.
+In the project source code, locate the database configuration file.
+Provide the necessary database credentials to connect to your MySQL database.
 
 6. Run the Application
 
 ## Key Features
 
-- Database Integration: The application should utilize a database management system (DBMS) of your choice. The database connection details, including the connection string, must be read from an application configuration file. The database should consist of 7-15 tables (or equivalent if a non-relational database is used).
+- `Database Integration`: The application should utilize a database management system (DBMS) of your choice. The database connection details, including the connection string, must be read from an application configuration file. The database should consist of 7-15 tables (or equivalent if a non-relational database is used).
 
-- User Accounts: The application should support different types of user accounts, including at least two types such as administrators and clerks. User authentication and role-based access control should be implemented.
+- `User Accounts`: The application should support different types of user accounts, including at least two types such as administrators and clerks. User authentication and role-based access control should be implemented.
 
-- Internationalization: Internationalization should be supported with at least two languages, including English and one of the official languages of your country. This internationalization should be at the form level, and data-level internationalization is optional.
+- `Internationalization`: Internationalization should be supported with at least two languages, including English and one of the official languages of your country. This internationalization should be at the form level, and data-level internationalization is optional.
 
-- User Preferences: Implement user settings, allowing users to choose from several (at least three) different themes/styles, each with different color schemes, fonts, and more. The system should remember the user's preference and apply it upon login.
+- `User Preferences`: Implement user settings, allowing users to choose from several (at least three) different themes/styles, each with different color schemes, fonts, and more. The system should remember the user's preference and apply it upon login.
