@@ -15,7 +15,7 @@ Follow these steps to set up and run the e-Kindergarten application on your loca
 2. Clone the Repository
 
 ```bash
-    git clone https://github.com/YourUsername/YourRepository.git
+    git clone https://github.com/SlavkoMuzdeka/e-Kindergarten.git
 ```
 
 3. Open the Project in Visual Studio:
