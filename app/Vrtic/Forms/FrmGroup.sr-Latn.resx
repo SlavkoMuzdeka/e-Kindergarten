@@ -1,0 +1,128 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BtnAddChild.Text" xml:space="preserve">
+    <value>     Dodaj dijete</value>
+  </data>
+  <data name="BtnAddUser.Text" xml:space="preserve">
+    <value>         Dodaj vaspitača</value>
+  </data>
+  <data name="BtnDeleteChild.Text" xml:space="preserve">
+    <value>   Obriši dijete</value>
+  </data>
+  <data name="BtnDeleteUser.Text" xml:space="preserve">
+    <value>        Obriši vaspitača</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="LbUsers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 23</value>
+  </data>
+  <data name="LbUsers.Text" xml:space="preserve">
+    <value>Vaspitači</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="DgwListUsers.ColumnHeadersHeight" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="ClmnFirstName.HeaderText" xml:space="preserve">
+    <value>Ime</value>
+  </data>
+  <data name="ClmnLastName.HeaderText" xml:space="preserve">
+    <value>Prezime</value>
+  </data>
+  <data name="ClmnDateOfBirth.HeaderText" xml:space="preserve">
+    <value>Datum rođenja</value>
+  </data>
+  <data name="ClmnAddress.HeaderText" xml:space="preserve">
+    <value>Adresa</value>
+  </data>
+  <data name="ClmnSalary.HeaderText" xml:space="preserve">
+    <value>Plata</value>
+  </data>
+  <data name="LbChildren.Location" type="System.Drawing.Point, System.Drawing">
+    <value>358, 2</value>
+  </data>
+  <data name="LbChildren.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 23</value>
+  </data>
+  <data name="LbChildren.Text" xml:space="preserve">
+    <value>Djeca</value>
+  </data>
+  <data name="DgwListChildren.ColumnHeadersHeight" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="ClmnNameChild.HeaderText" xml:space="preserve">
+    <value>Ime</value>
+  </data>
+  <data name="ClmnSurnameChild.HeaderText" xml:space="preserve">
+    <value>Prezime</value>
+  </data>
+  <data name="ClmnDateOfBirthChild.HeaderText" xml:space="preserve">
+    <value>Datum rođenja</value>
+  </data>
+  <data name="ClmnAddressChild.HeaderText" xml:space="preserve">
+    <value>Adresa</value>
+  </data>
+  <data name="ClmnHeightChild.HeaderText" xml:space="preserve">
+    <value>Visina</value>
+  </data>
+  <data name="ClmnWeightChild.HeaderText" xml:space="preserve">
+    <value>Težina</value>
+  </data>
+</root>

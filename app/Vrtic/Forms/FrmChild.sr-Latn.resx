@@ -1,0 +1,163 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>Dolasci/Odlasci</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>Članarine</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="DtpFrom.CalendarFont" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="DtpFrom.CustomFormat" xml:space="preserve">
+    <value>MM/dd/yyyy</value>
+  </data>
+  <data name="DtpFrom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 25</value>
+  </data>
+  <data name="LbFrom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 19</value>
+  </data>
+  <data name="LbFrom.Text" xml:space="preserve">
+    <value>Od:</value>
+  </data>
+  <data name="BtnFilter.Text" xml:space="preserve">
+    <value>Filtriraj</value>
+  </data>
+  <data name="LbUntil.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 19</value>
+  </data>
+  <data name="LbUntil.Text" xml:space="preserve">
+    <value>Do:</value>
+  </data>
+  <data name="ClmnDate.HeaderText" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="ClmnTime.HeaderText" xml:space="preserve">
+    <value>Vrijeme</value>
+  </data>
+  <data name="ClmArrivalDeparture.HeaderText" xml:space="preserve">
+    <value>Dolazak/Odlazak</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>639, 65</value>
+  </data>
+  <data name="pictureBox8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>639, 19</value>
+  </data>
+  <data name="BtnLogDeparture.Location" type="System.Drawing.Point, System.Drawing">
+    <value>626, 55</value>
+  </data>
+  <data name="BtnLogDeparture.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 40</value>
+  </data>
+  <data name="BtnLogDeparture.Text" xml:space="preserve">
+    <value>    Evidentiraj odlazak</value>
+  </data>
+  <data name="BtnLogArrival.Location" type="System.Drawing.Point, System.Drawing">
+    <value>626, 8</value>
+  </data>
+  <data name="BtnLogArrival.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 40</value>
+  </data>
+  <data name="BtnLogArrival.Text" xml:space="preserve">
+    <value>    Evidentiraj dolazak</value>
+  </data>
+  <data name="LbTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>286, 40</value>
+  </data>
+  <data name="LbTitle.Text" xml:space="preserve">
+    <value>Odlasci/Dolasci za </value>
+  </data>
+  <data name="ClmnTypeOfService.HeaderText" xml:space="preserve">
+    <value>Tip usluge</value>
+  </data>
+  <data name="ClmnAmount.HeaderText" xml:space="preserve">
+    <value>Iznos</value>
+  </data>
+  <data name="ClmnPaid.HeaderText" xml:space="preserve">
+    <value>Plaćeno</value>
+  </data>
+  <data name="ClmnMonth.HeaderText" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="ClmnDateOfPayment.HeaderText" xml:space="preserve">
+    <value>Datum plaćanja</value>
+  </data>
+  <data name="BtnCreateNew.Text" xml:space="preserve">
+    <value>     Kreiraj novu</value>
+  </data>
+  <data name="BtnLogPayment.Text" xml:space="preserve">
+    <value>    Uplaćeno</value>
+  </data>
+  <data name="LbMembership.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 30</value>
+  </data>
+  <data name="LbMembership.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 40</value>
+  </data>
+  <data name="LbMembership.Text" xml:space="preserve">
+    <value>Članarine za </value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Vrtic</value>
+  </data>
+</root>
